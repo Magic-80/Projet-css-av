@@ -9,9 +9,9 @@
 </head>
 <body>
     <section class="galery">
-        <div class="text text-center"> <p> Camp Life Gallery </p> </div>
-        <div class="container-fluid ">
-            <div class="galery row justify-content-sm-between g-2 w-100">
+        <div class="galery__title text text-center"> <p> Camp Life Gallery </p> </div>
+        <div class="galery__item container-fluid ">
+            <div class="galery__item--img row justify-content-sm-between g-2 w-100">
               <div class="col-md-3 p-1 col-sm-6">
                 <img src="/assets/img/Rectangle 2.svg" alt="">  
               </div>
@@ -52,21 +52,6 @@
           </div>
     </section>
 
-    <!-- <section class="slider">
-      <div class="slider__logo"> 
-        <img src="/assets/img/logo/quote 1.svg" alt=""> 
-      </div>
-      <div class="slider__texte"> 
-        <p> I'm a testimonial. Click to edit me and add text 
-            that says something nice about you and your services. Let your customers review you and tell their friends how great you are. 
-        </p> 
-      </div>
-      <div class="slider__subtitle"> 
-        <p> Jenny Phung </p> 
-      </div>
-  
-    </section> -->
-
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -80,7 +65,7 @@
             <div class="slider__logo"> 
               <img src="/assets/img/logo/quote 1.svg" alt=""> 
             </div>
-            <div class="slider__texte"> 
+            <div class=" d-block tex slider__texte"> 
               <p> I'm a testimonial. Click to edit me and add text 
                   that says something nice about you and your services. Let your customers review you and tell their friends how great you are. 
               </p> 
@@ -106,11 +91,13 @@
     </div>
 
     <section class="ready">
-      <div class="ready__bg d-flex flex-column justify-content-center gap-3 align-items-center text-light">
-        <div class="ready__bg--text"> <p> Ready for Camp? </p> </div>
+      <div class="ready__bg d-flex flex-column justify-content-center gap-3 align-items-center">
+        <div class="ready__bg--text  text-light"> <p> Ready for Camp? </p> </div>
         <button type="button" class="btn btn-warning btn-lg btn-block">Block level button</button>
       </div>
     </section>
+
+
 
     <section class="test"></section>
 
