@@ -4,62 +4,115 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/style/style.css">
+    <script defer src="/assets/style/bootstrap/js/dist/carousel.js"></script>
     <title>Document</title>
 </head>
 <body>
     <section class="galery">
         <div class="text text-center"> <p> Camp Life Gallery </p> </div>
-        <div class="container-fluid">
+        <div class="container-fluid ">
             <div class="galery row justify-content-sm-between g-2 w-100">
-              <div class="col-3">
+              <div class="col-md-3 p-1 col-sm-6">
                 <img src="/assets/img/Rectangle 2.svg" alt="">  
               </div>
-              <div class="col-3">
+              <div class="col-md-3 p-1 col-sm-6">
                 <img src="/assets/img/Rectangle 3.svg" alt="">
               </div>
-              <div class="col-3">
+              <div class="col-md-3 p-1 col-sm-6">
                 <img src="/assets/img/Rectangle 4.svg" alt="">
               </div>
-              <div class="col-3">
+              <div class="col-md-3 p-1 col-sm-6">
                 <img src="/assets/img/Rectangle 5.svg" alt="">
               </div>
-              <div class="col-3">
+              <div class="col-md-3 p-1 col-sm-6">
                 <img src="/assets/img/Rectangle 6.svg" alt="">
               </div>
-              <div class="col-3">
+              <div class="col-md-3 p-1 col-sm-6">
                 <img src="/assets/img/Rectangle 7.svg" alt="">
               </div>
-              <div class="col-3">
+              <div class="col-md-3 p-1 col-sm-6">
                 <img src="/assets/img/Rectangle 8.svg" alt="">
               </div>
-              <div class="col-3">
+              <div class="col-md-3 p-1 col-sm-6">
                 <img src="/assets/img/Rectangle 9.svg" alt="">
               </div>
-              <div class="col-3">
+              <div class="col-md-3 p-1 col-sm-6">
                 <img src="/assets/img/Rectangle 10.svg" alt="">
               </div>
-              <div class="col-3">
+              <div class="col-md-3 p-1 col-sm-6">
                 <img src="/assets/img/Rectangle 11.svg" alt="">
               </div>
-              <div class="col-3">
+              <div class="col-md-3 p-1 col-sm-6">
                 <img src="/assets/img/Rectangle 12.svg" alt="">
               </div>
-              <div class="col-3">
+              <div class="col-md-3 p-1 col-sm-6">
                 <img src="/assets/img/Rectangle 13.svg" alt="">
               </div>
             </div>
           </div>
     </section>
 
-    <section class="slider">
-        <div class="slider__bg">
-            <div class="slider__logo"> <img src="/assets/img/logo/quote 1.svg" alt=""> </div>
-            <div class="slider__texte"> <p> I'm a testimonial. Click to edit me and add text 
-                that says something nice about you and your services. Let your customers review you and tell their friends how great you are. 
-            </p> </div>
-            <div class="slider__subtitle"> <p> Jenny Phung </p> </div>
+    <!-- <section class="slider">
+      <div class="slider__logo"> 
+        <img src="/assets/img/logo/quote 1.svg" alt=""> 
+      </div>
+      <div class="slider__texte"> 
+        <p> I'm a testimonial. Click to edit me and add text 
+            that says something nice about you and your services. Let your customers review you and tell their friends how great you are. 
+        </p> 
+      </div>
+      <div class="slider__subtitle"> 
+        <p> Jenny Phung </p> 
+      </div>
+  
+    </section> -->
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="carousel-bg d-flex flex-column justify-content-sm-evenly align-items-center ">
+            <div class="slider__logo"> 
+              <img src="/assets/img/logo/quote 1.svg" alt=""> 
+            </div>
+            <div class="slider__texte"> 
+              <p> I'm a testimonial. Click to edit me and add text 
+                  that says something nice about you and your services. Let your customers review you and tell their friends how great you are. 
+              </p> 
+            </div>
+            <div class="slider__subtitle"> 
+              <p> Jenny Phung </p> 
+            </div>
+          </div>
         </div>
+        <div class="carousel-item">
+         <div> <p> deuxième </p> </div>
+        </div>
+        <div class="carousel-item"> 
+          <img class="d-block w-100" src="..." alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <section class="ready">
+      <div class="ready__bg d-flex flex-column justify-content-center gap-3 align-items-center text-light">
+        <div class="ready__bg--text"> <p> Ready for Camp? </p> </div>
+        <button type="button" class="btn btn-warning btn-lg btn-block">Block level button</button>
+      </div>
     </section>
+
+    <section class="test"></section>
 
 </body>
 </html>
