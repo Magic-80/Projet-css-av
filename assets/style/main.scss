@@ -1,48 +1,12 @@
+@use './layout/galery.scss';
+@use './layout/slider.scss';
+@use './layout/ready.scss';
 @import './bootstrap/scss/bootstrap.scss';
 
 body{
     background-color: black;
 }
 
-.galery{
-    &__title{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 15vh;
-        color: white;
-        font-size: 2.5rem;
-    }
-}
-
-.galery img{
-    width: 100%;
-}
-
-.slider__texte{
-    text-align: center;
-    width: 39%;
-}
-
-.carousel-bg{
-    color: white;
-    width: 100%;
-    height: 60vh;
-    background-color: #0b181e;
-}
-
-
-.ready__bg{
-    width: 100%;
-    height: 70vh;
-    background-image: url(/assets/img/Rectangle\ 15.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-size: 1.8rem;
-}
 
 .test{
     width: 100%;
