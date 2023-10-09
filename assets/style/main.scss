@@ -1,0 +1,47 @@
+@import './bootstrap/scss/bootstrap.scss';
+@import './bootstrap/scss/variables';
+
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+    $font-family :"Raleway", sans-serif;
+    text-align: center;
+    align-items: center;
+    color: white;
+ 
+}
+
+
+
+footer{
+    background-color: #0b181e;
+
+}
+.En-tete{
+    width: 100%;
+    background-color: azure;
+    text-align: center;
+    font-family: 'Ralewey'
+}
+
+.contact{
+    background-color: #0b181e;
+}
+
+
+.Formulaire{
+    $form-text-margin-top:                  .25rem;
+    $form-text-font-size:                   $small-font-size;
+    $form-text-font-style:                  null;
+    $form-text-font-weight:                 null;
+    $form-text-color:                       var(--#{$prefix}secondary-color);
+
+}
+
+.expect{
+    background: url("../img/rectangle-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
