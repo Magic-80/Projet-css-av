@@ -1,12 +1,6 @@
 @charset "UTF-8";
 .galery__title {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
   height: 15vh;
-  color: white;
   font-size: 2.5rem;
 }
 
@@ -19,10 +13,10 @@
   width: 39%;
 }
 
-.carousel-bg {
-  color: white;
+.slider__bg {
   width: 100%;
   height: 60vh;
+  color: white;
   background-color: #0b181e;
 }
 
@@ -11899,6 +11893,11 @@ body {
 .test {
   width: 100%;
   height: 50vh;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 40px;
+  height: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */

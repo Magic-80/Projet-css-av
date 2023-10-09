@@ -3,6 +3,10 @@
 @use './layout/ready.scss';
 @import './bootstrap/scss/bootstrap.scss';
 
+$carousel-indicator-width : 40px;
+$carousel-indicator-height : 40px;
+
+
 body{
     background-color: black;
 }
@@ -11,4 +15,9 @@ body{
 .test{
     width: 100%;
     height: 50vh;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: $carousel-indicator-width;
+    height: $carousel-indicator-height;
 }
