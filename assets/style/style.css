@@ -7,17 +7,40 @@
   font-family: "Raleway";
   src: url(../typo/Raleway-Regular.ttf);
 }
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
-  font-family: "Playfair Display";
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
 
-body {
-  margin: 0;
+@font-face {
+  font-family: "PlairfairDisplay-Regular";
+  src: url("/assets/typo/PlairfairDisplay/PlayfairDisplay-Regular.ttf");
 }
-body p {
-  margin: 0;
+@font-face {
+  font-family: "PlairfairDisplay-Bold";
+  src: url("/assets/typo/PlairfairDisplay/PlayfairDisplay-Bold.ttf");
 }
-
+@font-face {
+  font-family: "PlairfairDisplay-SemidBold";
+  src: url("/assets/typo/PlairfairDisplay/PlayfairDisplay-SemiBold.ttf");
+}
+@font-face {
+  font-family: "PlairfairDisplay-Medium";
+  src: url("/assets/typo/PlairfairDisplay/PlayfairDisplay-Medium.ttf");
+}
+@font-face {
+  font-family: "Releway-Regular";
+  src: url("/assets/typo/Raleway/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: "Releway-SemiBold";
+  src: url("/assets/typo/Raleway/Raleway-SemiBold.ttf");
+}
 .navbar {
   width: 85%;
   margin: 0;
@@ -46,6 +69,44 @@ body p {
   height: 100%;
   background-image: url(../img/History.png);
   background-size: cover;
+}
+
+.galery__title {
+  font-family: "PlairfairDisplay-Regular";
+  height: 15vh;
+  font-size: 2.5rem;
+}
+
+.galery img {
+  width: 100%;
+}
+
+.slider__texte {
+  text-align: center;
+  width: 39%;
+  font-family: "Releway-Regular";
+}
+
+.slider__bg {
+  width: 100%;
+  height: 60vh;
+  color: white;
+  background-color: #0b181e;
+}
+
+.slider__subtitle {
+  font-family: "PlairfairDisplay-Regular";
+}
+
+.ready__bg {
+  width: 100%;
+  height: 70vh;
+  background-image: url(/assets/img/Rectangle\ 15.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1.8rem;
+  font-family: "PlairfairDisplay-Regular";
 }
 
 /*!
@@ -11331,6 +11392,13 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+}
+body {
+  background-color: black;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+  font-family: "Playfair Display";
 }
 
 /*# sourceMappingURL=style.css.map */

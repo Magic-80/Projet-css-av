@@ -1,9 +1,17 @@
-@use "./variables" as *;
-@use "./base.scss" as *;
-@use "./layout/header.scss" as *;
+@use "./abstract/variable" as *;
+@use "./base/reset.scss";
+@use "./base/typo.scss";
+@use "./layout/header.scss";
 @use "./layout/history.scss";
+@use './layout/galery.scss';
+@use './layout/slider.scss';
+@use './layout/ready.scss';
 @import "./bootstrap/scss/bootstrap.scss";
 
+body{
+    background-color: black;
+}
 
-
-
+h1, h2, h3,h4,h5{
+    font-family: $font-family-title;
+}
