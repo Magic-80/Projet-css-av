@@ -3,10 +3,12 @@
 @use "./base/typo.scss";
 @use "./layout/header.scss";
 @use "./layout/history.scss";
+@use './layout/expect.scss';
 @use './layout/galery.scss';
 @use './layout/slider.scss';
 @use './layout/ready.scss';
 @use './layout/contact.scss';
+@use './layout/footer.scss';
 @import "./bootstrap/scss/bootstrap.scss";
 
 body{
