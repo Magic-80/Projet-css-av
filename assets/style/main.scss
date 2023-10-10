@@ -3,9 +3,11 @@
 @use './layout/ready.scss';
 @import './bootstrap/scss/bootstrap.scss';
 
-$carousel-indicator-width : 40px;
-$carousel-indicator-height : 40px;
 
+$carousel-indicator-width : 30px;
+$carousel-indicator-height : 30px;
+
+$--bs-btn-bg : #F9B860;
 
 body{
     background-color: black;
@@ -17,7 +19,14 @@ body{
     height: 50vh;
 }
 
+// classe boostrap
+
 .carousel-indicators [data-bs-target]{
     width: $carousel-indicator-width;
     height: $carousel-indicator-height;
+    border-radius: 50%;
+}
+
+.ready__button{
+    background-color : #F9B860;
 }
