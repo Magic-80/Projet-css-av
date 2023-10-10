@@ -1,6 +1,8 @@
-@use './layout/galery.scss';
-@use './layout/slider.scss';
-@use './layout/ready.scss';
+@use './base/reset.scss';
+@use './layout/galery';
+@use './layout/slider';
+@use './layout/ready';
+@use './base/typo.scss';
 @import './bootstrap/scss/bootstrap.scss';
 
 

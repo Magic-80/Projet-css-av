@@ -1,5 +1,40 @@
 @charset "UTF-8";
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "PlairfairDisplay-Regular";
+  src: url("/assets/typo/PlairfairDisplay/PlayfairDisplay-Regular.ttf");
+}
+@font-face {
+  font-family: "PlairfairDisplay-Bold";
+  src: url("/assets/typo/PlairfairDisplay/PlayfairDisplay-Bold.ttf");
+}
+@font-face {
+  font-family: "PlairfairDisplay-SemidBold";
+  src: url("/assets/typo/PlairfairDisplay/PlayfairDisplay-SemiBold.ttf");
+}
+@font-face {
+  font-family: "PlairfairDisplay-Medium";
+  src: url("/assets/typo/PlairfairDisplay/PlayfairDisplay-Medium.ttf");
+}
+@font-face {
+  font-family: "Releway-Regular";
+  src: url("/assets/typo/Raleway/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: "Releway-SemiBold";
+  src: url("/assets/typo/Raleway/Raleway-SemiBold.ttf");
+}
 .galery__title {
+  font-family: "PlairfairDisplay-Regular";
   height: 15vh;
   font-size: 2.5rem;
 }
@@ -11,6 +46,7 @@
 .slider__texte {
   text-align: center;
   width: 39%;
+  font-family: "Releway-Regular";
 }
 
 .slider__bg {
@@ -18,6 +54,10 @@
   height: 60vh;
   color: white;
   background-color: #0b181e;
+}
+
+.slider__subtitle {
+  font-family: "PlairfairDisplay-Regular";
 }
 
 .ready__bg {
@@ -28,6 +68,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   font-size: 1.8rem;
+  font-family: "PlairfairDisplay-Regular";
 }
 
 /*!
