@@ -70,16 +70,18 @@
       </section>
     </main>
 
-      <section class="expect d-flex justify-content-evenly flex-column align-items-center">
-        <div class="expect__title">
+      <section class="expect ">
+        <div class="expect__text text-center">
+          <div class="expect__title">
             <h1> What to Expect </h1>
         </div>
         <div class="expect__subtitle">
             <p> I'm a title. Click here to add your own text and edit me </p>
         </div>
-        <div class="d-flex align-items-center">
+        </div>
+        <div class="d-flex justify-content-evenly flex-column align-items-center">
             <div class="d-flex flex-row mb-3">
-                <div class="container-fluid">
+                <div class="d-flex justify-content-evenly flex-row align-items-center">
                     <img src="/assets/img/tasse-de-cafe_1.svg" />
                     <img src="/assets/img/botte-de-neige_1.svg" />
                     <img src="/assets/img/Frame 9.svg" />
@@ -87,8 +89,10 @@
                 </div>
             </div>
         </div>
-        <div class="expect__button w-100d-flex justify-content-evenly align-items-center h-25">
-            <button class="Button-learn-more"> Learn more </button>
+        <div class="expect__button w-100 d-flex justify-content-evenly align-items-center h-25">
+            <button type="button" class="btn btn-outline-secondary">
+              Learn More
+            </button>
         </div>
         
     </section>
@@ -205,7 +209,7 @@
 
     <section class="ready">
       <div class="ready__bg d-flex flex-column justify-content-center gap-3 align-items-center">
-        <div class="ready__bg--text  text-light"> <p> Ready for Camp? </p> </div>
+        <div class="ready__bg--text text-light"> <p> Ready for Camp ? </p> </div>
         <div class="sign">
           <button type="button" class="btn btn-secondary">Sign Me Up</button>
         </div>
@@ -213,22 +217,17 @@
     </section>
 
     <div class="contact d-flex flex-column justify-content-center align-items-center w-100 p-5">
-      <form class="background row w-75 p-5 gap-3">
-          <div class="container d-flex flex-column justify-content-center align-items-center">
-              <div class="Tete ">
-                  <h1>
-                      <div class="Haut de page p-3">Contact</div>
-                  </h1>
-                  <p class="Sous-titre2 p-1">Questions? Call us at 123-456-7890 or leave us a message:</p>
-                  <p class="Sous-titre3  p-5">500 Terry Francine Street San Francisco, CA 94158</p>
-
+      <form class="contact__background w-75 p-5  ">
+          <div class=" contact__content text-center">
+              <div class="contact__texte ">
+                  <p class="contact__title p-3"> Contact </p>
+                  <p class="contact__subtitle ">Questions? Call us at 123-456-7890 or leave us a message:</p>
+                  <p class="contact__subtitle--2 ">500 Terry Francine Street San Francisco, CA 94158</p>
               </div>
-  
               <div class="Formulaire d-flex flex-column justify-content-center align-items-center gap-3 w-100 ">
               <div class="label w-50">
                   <input type="text" id="Name" class="form-control bg-transparent text-light w-100" placeholder="Name">
               </div>
-
               <div class="label w-50">
                   <input type="text" id="Email" class="form-control bg-transparent text-light" placeholder="Email">
               </div>
@@ -241,12 +240,13 @@
                       <textarea class="form-control bg-transparent text-light" placeholder="Type your message here"
                           id="floatingTextarea2" style="height: 165px"></textarea>
                   </div>
-
               </div> 
 
               <div class=" d-flex justify-content-end align-items-center w-50">
-                  <button type="button" class="submit__button btn btn-light  btn-lg">Submit</button>
+                <div class="sign">
+                  <button type="button" class="btn btn-secondary">Submit</button>
                 </div>
+              </div>
               
           </div>
 
@@ -254,18 +254,13 @@
     </div>
 
     <footer class="footer">
-      <div class="Socials p-5 gap-3">
-
-
-          <img class="Facebook p-3" src="/assets/img/facebook_2.svg">
+      <div class="Socials p-5 gap-3 text-center">
+          <img  class="Facebook p-3" src="/assets/img/facebook_2.svg">
           <img  class ="Youtube p-3" src="assets/img/Youtube.svg">
           <img class="Instagram p-3" src="assets/img/Instagram.svg">
-
-
-          <div class="text-wrapper-10  p-5 gap-3">© 2035 Cookin’ Camp.</div>
+          <div class="text-wrapper-10  p-5 gap-3"> <p> © 2035 Cookin' Camp. </p> </div>
       </div>
-    </footer>
-
+    </footer> 
 
   </body>
 </html>

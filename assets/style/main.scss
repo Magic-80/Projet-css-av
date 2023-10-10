@@ -19,9 +19,8 @@ h1, h2, h3,h4,h5{
     font-family: $font-family-title;
 }
 
-
-.carousel-indicators [data-bs-target]{
-    width: $carousel-indicator-width;
-    height: $carousel-indicator-height;
-    border-radius: 50%;
-}
+@media screen and (min-width: 456px) and (max-width: 767px) {
+   .container-img{
+    display: none;
+   }
+  }

@@ -1,20 +1,15 @@
+@use '../abstract/variable' as *;
+
 .contact{
-    width: 1217;
-    height: auto;
-}
+    &__background{
+        background-color: #0b181e;
 
+    }
 
-.background{
-    background-color: #0b181e;
-}
-
-
-.container-fluid{
-    width: auto;
-}
-
-.submit__button{
-    border-radius: 0%;
+    &__title{
+        font-size: 4rem;
+        font-family: $font-family-title;
+    }
 }
 
 #Name::placeholder{
@@ -33,9 +28,5 @@
     color: white;
 }
 
-.Formulaire{
-    align-items: center;
-    justify-content: center;
-  
- }
- 
+
+

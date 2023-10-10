@@ -1,3 +1,5 @@
+@use "../abstract/variable" as *;
+
 .slider__texte{
     text-align: center;
     width: 39%;
@@ -13,4 +15,10 @@
 
 .slider__subtitle{
     font-family: "PlairfairDisplay-Regular";
+}
+
+.carousel-indicators [data-bs-target]{
+    width: $carousel-indicator-width;
+    height: $carousel-indicator-height;
+    border-radius: 50%;
 }

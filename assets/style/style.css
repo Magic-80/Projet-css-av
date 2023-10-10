@@ -68,19 +68,11 @@
 }
 
 .expect {
-  background: url("/assets/img/rectangle-1.png");
+  background: url("/assets/img/Rectangle 1.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
-}
-
-.Button-learn-more {
-  border-color: #f9b860;
-  color: #f9b860;
-  background-color: #000000;
-  align-items: start;
-  text-align: start;
+  height: 90vh;
 }
 
 .form-control {
@@ -117,6 +109,12 @@
   font-family: "PlairfairDisplay-Regular";
 }
 
+.carousel-indicators [data-bs-target] {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
 .ready__bg {
   width: 100%;
   height: 70vh;
@@ -128,21 +126,12 @@
   font-size: 1.8rem;
 }
 
-.contact {
-  width: 1217;
-  height: auto;
-}
-
-.background {
+.contact__background {
   background-color: #0b181e;
 }
-
-.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
-  width: auto;
-}
-
-.submit__button {
-  border-radius: 0%;
+.contact__title {
+  font-size: 4rem;
+  font-family: "PlairfairDisplay-Regular";
 }
 
 #Name::placeholder {
@@ -158,20 +147,6 @@
 }
 
 #floatingTextarea2::placeholder {
-  color: white;
-}
-
-.Formulaire {
-  align-items: center;
-  justify-content: center;
-}
-
-footer {
-  background-color: #000000;
-  height: 160px;
-  align-items: center;
-  text-align: center;
-  align-items: center;
   color: white;
 }
 
@@ -11467,10 +11442,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   font-family: "PlairfairDisplay-Regular";
 }
 
-.carousel-indicators [data-bs-target] {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
+@media screen and (min-width: 456px) and (max-width: 767px) {
+  .container-img {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
