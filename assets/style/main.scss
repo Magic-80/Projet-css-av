@@ -1,93 +1,12 @@
-@import './bootstrap/scss/bootstrap.scss';
-@import './bootstrap/scss/variables';
-
-body{
-    padding: 0%;
-    margin: 0%;
-    background-color: black;
-    $font-family :"Raleway", sans-serif;
-    text-align: center;
-    align-items: center;
-    color: white;
- 
-}
-
-footer{
-    background-color: #000000;
-    height: 160px;
-    align-items: center;
-
-}
-.En-tete{
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: 'Ralewey'
-}
-
-.contact{
-    width: 1217;
-    height: auto;
-   
-}
-
-.Formulaire{
-   align-items: center;
-   justify-content: center;
- 
-}
+@use './layouts/home';
+@use './layouts/contact';
+@use './layouts/expends';
+@use './bootstrap/scss/bootstrap.scss';
 
 
-.expect{
-    background: url("../img/rectangle-1.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-.Button-learn-more{
-    border-color: #f9b860;
-    color: #f9b860;
-    background-color: #000000;
-    align-items: start;
-    text-align: start;
-}
 
-.form-control{
-    border-radius: 0%;
-    border-color: white;
-    background-color: #0b181e;
-    height: 70px;
-  
-    
-}
 
-.container-fluid{
-   // height: 732px;
-    width: auto;
 
-}
 
-.submit__button{
-    border-radius: 0%;
-}
 
-.background{
-    background-color: #0b181e;
-}
-
-#Name::placeholder{
-    color: white;
-}
-
-#Email::placeholder{
-    color: white;
-}
-
-#Subject::placeholder{
-    color: white;
-}
-
-#floatingTextarea2::placeholder{
-    color: white;
-}
