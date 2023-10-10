@@ -1,0 +1,13 @@
+@use '../base/typo.scss';
+
+.galery{
+    &__title{
+        font-family: "PlairfairDisplay-Regular";
+        height: 15vh;
+        font-size: 2.5rem;
+    }
+}
+
+.galery img{
+    width: 100%;
+}
