@@ -99,6 +99,44 @@
   font-size: 1.8rem;
 }
 
+.contact {
+  width: 1217;
+  height: auto;
+}
+
+.background {
+  background-color: #0b181e;
+}
+
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+  width: auto;
+}
+
+.submit__button {
+  border-radius: 0%;
+}
+
+#Name::placeholder {
+  color: white;
+}
+
+#Email::placeholder {
+  color: white;
+}
+
+#Subject::placeholder {
+  color: white;
+}
+
+#floatingTextarea2::placeholder {
+  color: white;
+}
+
+.Formulaire {
+  align-items: center;
+  justify-content: center;
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
