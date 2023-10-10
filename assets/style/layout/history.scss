@@ -1,12 +1,14 @@
 .history{
     height:80vh ;
-    &__img .container-img{
+    &__img {
+        height: inherit;
+        .container-img{
         width: 100%;
         height: 100%;
         background-image: url(../img/History.png);
         background-size: cover;
         
-    }
+    }}
     
 }
 
