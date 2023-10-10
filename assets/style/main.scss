@@ -1,30 +1,11 @@
-@use './base/reset.scss';
-@use './layout/galery';
-@use './layout/slider';
-@use './layout/ready';
-@use './base/typo.scss';
-@import './bootstrap/scss/bootstrap.scss';
+@use "./variables" as *;
+@use "./base.scss" as *;
+@use "./layout/header.scss" as *;
+@use "./layout/history.scss";
+@import "../../bootstrap/scss/functions";
+@import "../../bootstrap/scss/variables";
+@import "../../bootstrap/scss/bootstrap.scss";
 
 
-$carousel-indicator-width : 30px;
-$carousel-indicator-height : 30px;
-
-body{
-    background-color: black;
-}
-
-
-.test{
-    width: 100%;
-    height: 50vh;
-}
-
-// classe boostrap
-
-.carousel-indicators [data-bs-target]{
-    width: $carousel-indicator-width;
-    height: $carousel-indicator-height;
-    border-radius: 50%;
-}
 
 
