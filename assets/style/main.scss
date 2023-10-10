@@ -7,8 +7,6 @@
 $carousel-indicator-width : 30px;
 $carousel-indicator-height : 30px;
 
-$--bs-btn-bg : #F9B860;
-
 body{
     background-color: black;
 }
@@ -25,8 +23,4 @@ body{
     width: $carousel-indicator-width;
     height: $carousel-indicator-height;
     border-radius: 50%;
-}
-
-.ready__button{
-    background-color : #F9B860;
 }
