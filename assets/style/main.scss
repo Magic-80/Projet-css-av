@@ -1,5 +1,7 @@
 @use "./variables" as *;
 @use "./base.scss" as *;
+@use "./layout/header.scss" as *;
+@use "./layout/history.scss";
 @import "../../bootstrap/scss/functions";
 @import "../../bootstrap/scss/variables";
 @import "../../bootstrap/scss/bootstrap.scss";
