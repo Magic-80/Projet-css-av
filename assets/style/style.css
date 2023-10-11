@@ -61,12 +61,6 @@
   background-size: cover;
 }
 
-.En-tete {
-  width: 100%;
-  background-color: rgb(255, 255, 255);
-  text-align: center;
-}
-
 .expect {
   background: url("/assets/img/Rectangle 1.svg");
   background-position: center;
@@ -11438,13 +11432,19 @@ body {
   background-color: black;
 }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+h1, .h1, h2, .h2 {
   font-family: "PlairfairDisplay-Regular";
 }
 
-@media screen and (min-width: 456px) and (max-width: 767px) {
+@media screen and (min-width: 200px) and (max-width: 767px) {
   .container-img {
     display: none;
+  }
+  .contact__title {
+    font-size: 2rem;
+  }
+  .expect {
+    height: 180vh;
   }
 }
 

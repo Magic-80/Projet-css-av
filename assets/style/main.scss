@@ -14,12 +14,18 @@ body{
     background-color: black;
 }
 
-h1, h2, h3,h4,h5{
+h1, h2{
     font-family: $font-family-title;
 }
 
-@media screen and (min-width: 456px) and (max-width: 767px) {
+@media screen and (min-width: 200px) and (max-width: 767px) {
    .container-img{
     display: none;
+   }
+   .contact__title{
+    font-size: 2rem;
+   }
+   .expect {
+    height: 180vh;
    }
   }
